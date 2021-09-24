@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Youtube Multi Video</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="grey darken-3 white-text">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <h1 class="header center red-text text-darken-1">Youtube Multi Video</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">Add your Youtube videos to watch them at the same time!</h5>
+                <h5 class="header col s12 light">Paste the URL inside the input and click outside to load the video.</h5>
+            </div>
+            <div class="row">
+                <div class="input-field col s3">
+                    <input id="url-1" data-iframe="iframe-1" type="text" class="white-text" placeholder="URL">
+                </div>
+                <div class="input-field col s3">
+                    <input id="url-2" data-iframe="iframe-2" type="text" class="white-text" placeholder="URL">
+                </div>
+                <div class="input-field col s3">
+                    <input id="url-3" data-iframe="iframe-3" type="text" class="white-text" placeholder="URL">
+                </div>
+                <div class="input-field col s3">
+                    <input id="url-4" data-iframe="iframe-4" type="text" class="white-text" placeholder="URL">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s6 center">
+                    <div class="video-container">
+                        <iframe id="iframe-1" width="853" height="480" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s6 center">
+                    <div class="video-container">
+                        <iframe id="iframe-2" width="853" height="480" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 center">
+                    <div class="video-container">
+                        <iframe id="iframe-3" width="853" height="480" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s6 center">
+                    <div class="video-container">
+                        <iframe id="iframe-4" width="853" height="480" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Scripts-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
